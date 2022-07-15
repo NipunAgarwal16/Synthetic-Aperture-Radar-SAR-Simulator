@@ -1,4 +1,4 @@
-# Sarsen
+# Synthetic Aperture Radar (SAR) Simulator
 
 Algorithms and utilities for Synthetic Aperture Radar (SAR) sensors.
 Enables cloud-native SAR processing via [*Xarray*](https://xarray.pydata.org)
@@ -134,50 +134,5 @@ This is the list of the reference documents:
 - the radiometric terrain-correction algorithms are based on:
   [D. Small, "Flattening Gamma: Radiometric Terrain Correction for SAR Imagery," in IEEE Transactions on Geoscience and Remote Sensing, vol. 49, no. 8, pp. 3081-3093, Aug. 2011, doi: 10.1109/TGRS.2011.2120616](https://www.geo.uzh.ch/microsite/rsl-documents/research/publications/peer-reviewed-articles/201108-TGRS-Small-tcGamma-3809999360/201108-TGRS-Small-tcGamma.pdf)
 
-## Project resources
-
-[![on-push](https://github.com/bopen/sarsen/actions/workflows/on-push.yml/badge.svg)](https://github.com/bopen/sarsen/actions/workflows/on-push.yml)
-[![codecov](https://codecov.io/gh/bopen/sarsen/branch/main/graph/badge.svg?token=62S9EXDF0V)](https://codecov.io/gh/bopen/sarsen)
-
 ## Contributing
 
-The main repository is hosted on GitHub.
-Testing, bug reports and contributions are highly welcomed and appreciated:
-
-https://github.com/bopen/sarsen
-
-Lead developer:
-
-- [Alessandro Amici](https://github.com/alexamici) - [B-Open](https://bopen.eu)
-
-Main contributors:
-
-- [Aureliana Barghini](https://github.com/aurghs) - [B-Open](https://bopen.eu)
-
-See also the list of [contributors](https://github.com/bopen/sarsen/contributors) who participated in this project.
-
-## Sponsoring
-
-[B-Open](https://bopen.eu) commits to maintain the project long term and we are happy to accept sponsorships to develop new features.
-
-We wish to express our gratitude to the project sponsors:
-
-- [Microsoft](https://microsoft.com) has sponsored the support for *GRD* products and the *gamma flattening* algorithm.
-
-## License
-
-```
-Copyright 2016-2022 B-Open Solutions srl
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-... http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
