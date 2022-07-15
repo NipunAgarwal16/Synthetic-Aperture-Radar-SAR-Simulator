@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "setuptools_scm[toml]>=3.4",
+    "setuptools_scm_git_archive",
+]
+
+[mypy]
+plugins = "numpy.typing.mypy_plugin"
+
+[tool.coverage.run]
+branch = true
+
+[tool.isort]
+profile = "black"
+
+[tool.setuptools_scm]
+write_to = "sarsen/version.py"
+write_to_template = '''
+# don't change, don't track in version control
+__version__ = "{version}"
+'''
