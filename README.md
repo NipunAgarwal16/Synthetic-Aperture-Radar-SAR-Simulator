@@ -4,7 +4,6 @@ Algorithms and utilities for Synthetic Aperture Radar (SAR) sensors.
 Enables cloud-native SAR processing via [*Xarray*](https://xarray.pydata.org)
 and [*Dask*](https://dask.org).
 
-This Open Source project is sponsored by B-Open - https://www.bopen.eu.
 
 ## Features and limitations
 
