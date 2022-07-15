@@ -133,5 +133,9 @@ This is the list of the reference documents:
 - the radiometric terrain-correction algorithms are based on:
   [D. Small, "Flattening Gamma: Radiometric Terrain Correction for SAR Imagery," in IEEE Transactions on Geoscience and Remote Sensing, vol. 49, no. 8, pp. 3081-3093, Aug. 2011, doi: 10.1109/TGRS.2011.2120616](https://www.geo.uzh.ch/microsite/rsl-documents/research/publications/peer-reviewed-articles/201108-TGRS-Small-tcGamma-3809999360/201108-TGRS-Small-tcGamma.pdf)
 
-## Contributing
+## Credits
+
+I am extremely thankful to the support of mentors and advisors of this Project:
+
+Dr. Alberto Moreira, Director, Microwaves and Radar Institute, DLR & Professor for Radar Remote Sensing, KIT 
 
