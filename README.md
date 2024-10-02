@@ -135,7 +135,7 @@ This is the list of the reference documents:
 
 ## Credits
 
-I am extremely thankful to the support of mentors and advisors of this Project:
+I am extremely thankful to the support of mentors and advisors of this project:
 
 Dr. Alberto Moreira, Director, Microwaves and Radar Institute, DLR & Professor for Radar Remote Sensing, KIT 
 

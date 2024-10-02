@@ -26,9 +26,9 @@ def open_dataset_autodetect(
         )
     except FileNotFoundError:
         # re-try with Planetary Computer option
-        kwargs[
-            "override_product_files"
-        ] = "{dirname}/{prefix}{swath}-{polarization}{ext}"
+        kwargs["override_product_files"] = (
+            "{dirname}/{prefix}{swath}-{polarization}{ext}"
+        )
         ds = xr.open_dataset(
             product_urlpath, engine="sentinel-1", group=group, chunks=chunks, **kwargs
         )
